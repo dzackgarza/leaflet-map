@@ -194,5 +194,3 @@ export const initializeLeaflet = ({
 			});
 	}
 };
-
-console.log('LEAFLET LOADER BABY');
