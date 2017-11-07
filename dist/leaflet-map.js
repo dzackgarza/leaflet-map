@@ -25035,14 +25035,14 @@ const populateControls = () => {
 		geoJsonLayer.setStyle({ fillOpacity: this.value / 100 });
 	};
 
-	L.easyPrint({
-		tileLayer: currentLayer,
-		sizeModes: ['A4Landscape', 'A4Portrait'],
-		filename: 'review',
-		exportOnly: false,
-		hideControlContainer: true,
-		customWindowTitle: 'Google, Leaflet, DrivetimeMaps.com'
-	}).addTo(map);
+	// L.easyPrint({
+	// 	tileLayer: currentLayer,
+	// 	sizeModes: ['A4Landscape', 'A4Portrait'],
+	// 	filename: 'review',
+	// 	exportOnly: false,
+	// 	hideControlContainer: true,
+	// 	customWindowTitle: 'Google, Leaflet, DrivetimeMaps.com'
+	// }).addTo(map);
 };
 /* harmony export (immutable) */ __webpack_exports__["populateControls"] = populateControls;
 
