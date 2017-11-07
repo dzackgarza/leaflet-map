@@ -112,14 +112,14 @@ export const populateControls = () => {
 	};
 
 
-	L.easyPrint({
-		tileLayer: currentLayer,
-		sizeModes: ['A4Landscape', 'A4Portrait'],
-		filename: 'review',
-		exportOnly: false,
-		hideControlContainer: true,
-		customWindowTitle: 'Google, Leaflet, DrivetimeMaps.com'
-	}).addTo(map);
+	// L.easyPrint({
+	// 	tileLayer: currentLayer,
+	// 	sizeModes: ['A4Landscape', 'A4Portrait'],
+	// 	filename: 'review',
+	// 	exportOnly: false,
+	// 	hideControlContainer: true,
+	// 	customWindowTitle: 'Google, Leaflet, DrivetimeMaps.com'
+	// }).addTo(map);
 };
 
 export const updateMarker = (latitude, longitude, autoFitBounds = false) => {
